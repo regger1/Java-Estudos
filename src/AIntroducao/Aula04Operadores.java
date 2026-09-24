@@ -1,4 +1,4 @@
-package Introducao;
+package AIntroducao;
 
 public class Aula04Operadores {
     static void main() {
@@ -32,12 +32,12 @@ public class Aula04Operadores {
         System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrinta " + isDentroDaLeiMenorQueTrinta);
 
-
         double valorTotalContaCorrente = 200;
         double valorTotalContaPoupanca = 10000;
         float valorPlaystation = 5000F;
 
-        boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+        boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation
+                || valorTotalContaPoupanca > valorPlaystation;
         System.out.println("isPlaystationCincoCompravel " + isPlaystationCincoCompravel);
 
         // = += -= *= /= %=
@@ -52,8 +52,8 @@ public class Aula04Operadores {
         // ++ --
         int contador = 0;
         contador += 1; // contador = contador + 1
-        contador ++; // contador = contador + 1
-        contador --; // contador = contador - 1
+        contador++; // contador = contador + 1
+        contador--; // contador = contador - 1
         System.out.println(contador);
         int contador2 = 2;
         System.out.println(contador2++);

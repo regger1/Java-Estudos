@@ -1,4 +1,4 @@
-package Introducao;
+package AIntroducao;
 
 public class Aula02TiposPrimitivos {
     static void main() {

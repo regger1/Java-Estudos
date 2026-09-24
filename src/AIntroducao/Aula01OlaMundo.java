@@ -1,4 +1,4 @@
-package Introducao;
+package AIntroducao;
 
 public class Aula01OlaMundo {
     static void main() {

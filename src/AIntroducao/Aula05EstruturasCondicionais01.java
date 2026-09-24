@@ -1,4 +1,4 @@
-package Introducao;
+package AIntroducao;
 
 public class Aula05EstruturasCondicionais01 {
     static void main() {
@@ -11,7 +11,6 @@ public class Aula05EstruturasCondicionais01 {
         } else {
             System.out.println("Não autorizado a comprar bebida alcoólica");
         }
-
 
     }
 }

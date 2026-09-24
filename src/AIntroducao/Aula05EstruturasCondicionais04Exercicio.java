@@ -1,4 +1,4 @@
-package Introducao;
+package AIntroducao;
 
 public class Aula05EstruturasCondicionais04Exercicio {
     public static void main(String[] args) {
