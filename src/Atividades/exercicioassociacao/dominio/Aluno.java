@@ -3,7 +3,6 @@ package Atividades.exercicioassociacao.dominio;
 public class Aluno {
     private String nome;
     private int idade;
-    private Seminario seminario;
 
     // Construtor
     public Aluno(String nome, int idade) {
